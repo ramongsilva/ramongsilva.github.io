@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cursos IFSULDEMINAS</title>
+    <style>
+      @charset = 'utf-8';
+      
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      html{
+        width: 100%;
+        height: 100%;
+      }
+
+      body{
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+      nav{
+        display: flex;        
+        width: 100%;
+        height: 6vh;        
+        background-color:#00420c;
+ 
+      }
+
+      nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 2% 0 0;        
+      }
+
+      nav ul li{
+        list-style-type: none;
+        margin: 0 1% 0 1%;
+      }
+
+      nav ul li a{
+        font-size: 1.2em;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+      }
+
+      nav ul li a:hover{
+        text-decoration: underline;
+      }
+
+      header{
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 20vh;
+        padding: 0 20% 0 15%;
+        border-bottom: 2px solid #ccc;
+        background-color:rgb(216, 252, 216);
+      }
+
+      header h1{
+        font-size: 3em;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+      }
+
+      main{        
+        margin: 0 auto;
+        margin-top: 1%;
+        display: flex;
+        width: 70%;
+      }
+
+      main section{
+        width: 90%;
+        height: 100%;
+        margin: 0 1% 0 1%;
+
+      }
+
+      main section h1{
+        font-size: 2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: 1px solid #ccc;
+        color: rgb(66, 66, 66);
+     
+      }
+
+      main section p{
+        margin-top: 2%;
+        font-size: 1.5em;
+        font-weight: 700;
+      }
+
+      main section ul{
+        margin-top: 1%;
+        margin-left: 6%;
+      }
+
+      main section ul li {
+        list-style:square;        
+        margin-top: 1%;
+        padding: 1%;
+        width: 100%;
+        height: 100%;
+        font-weight: 700;
+        font-size: 1.1em;        
+      }
+
+      aside{        
+        margin: 0 auto;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 40%;
+        margin-bottom: 1%;
+      }
+      aside h2{
+        margin-top: 2%;
+        font-size: 1.7em;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+      } 
+
+
+      
+      aside section ul {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2% 0 0; 
+        height: 150px;
+        margin-top: 1%;
+      }
+
+      aside section ul li {
+        list-style: none;
+        margin: 0 1% 0 1%;
+        border: 1px solid #ccc;
+        width: 90%;
+        height: 80%;
+        background-color: yellowgreen;
+
+      }
+
+      aside section ul li a{
+        color: black;
+        font-size: 1.3em;
+        font-weight: 700;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+      }
+
+      aside section ul li a:hover{
+        text-decoration: underline;
+        background-color: white;
+      }
+
+      footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        border-top: 2px solid #ccc;
+        background-color:rgb(216, 252, 216);
+      }
+
+      footer p{
+        font-size: 1.2em;
+        font-weight: 700;
+      }
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#sup">Cursos superiores</a></li>
+        <li><a href="#tec">Cursos técnicos</a></li>
+        <li><a href="#sup">IFSULDEMINAS campus Muzambinho</a></li>
+      </ul>
+    </nav>
+    <header>
+      <figure>
+        <img src="img_IF.png">
+      </figure>
+      <h1>Cursos IFSULDEMINAS</h1>
+      <h2>Campus Muzambinho</h2>
+    </header>
+
+    <main>
+      <section id="sup">
+        <h1>Cursos Superiores</h1>
+        <p>Informações sobre os cursos superiores.</p>
+        <ul>
+          <li>Agronomia</li>
+          <li>Ciências biológicas</li>
+          <li>Ciência da computação</li>
+          <li>Educação física</li>
+          <li>Medicina veterinária</li>
+          <li>Pedagogia</li>
+          <li>Tecnólogo em cafeicultura</li>
+        </ul>
+      </section>
+      <section id="tec">
+        <h1>Cursos técnicos</h1>
+        <p>Informações sobre os cursos técnicos.</p>
+        <ul>
+          <li>Técnico em alimentos</li>
+          <li>Técnico em agropecuária</li>
+          <li>Técnico em administração</li>
+          <li>Técnico em contabilidade</li>
+          <li>Técnico em edificações</li>
+          <li>Técnico em enfermagem</li>
+          <li>Técnico em informática</li>
+        </ul>
+      </section>
+      
+    </main>
+
+      <aside>
+        <hr>
+        <h2>Conheça outros campus do IFSULDEMINAS</h2>
+        <section>
+          <ul>
+            <li><a href="#">Campus Carmo de Minas</a></li>
+            <li><a href="#">Campus Inconfidentes</a></li>
+            <li><a href="#">Campus Machado</a></li>
+            <li><a href="#">Campus Passos</a></li>
+            <li><a href="#">Campus Poços de Caldas</a></li>
+            <li><a href="#">Campus Pouso Alegre</a></li>
+          </ul>
+        </section>
+      </aside>
+
+   
+    <footer>
+      <p>Cursos IFSULDEMINAS</p>
+      <p>contato@muz.ifsuldeminas.edu.br - 35 3571-5051</p>
+    </footer>
+
+  </body>
+</html>
